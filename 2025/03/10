@@ -1,0 +1,32 @@
+# Day-End-Review
+ _2025-03-10_
+ 
+ **6 takeaways from today**
+ 
+ 1. Basic Components
+       * Motherboard, CPU, PCI(Peripheral Component Interconnection), Northbridge, Southbridge, BIO's UEFI9 (firmware), RAM, BUS
+         
+ 2. Hardware is the actual physical components found inside and outside that make up computer system. The 4 types are:
+       * Supercomputer
+       * Mainframe
+       * Midrange
+       * PC (Personal Computer)
+ 
+ 3. Software is the system that gives instuctions to the computer. 
+    * System Software manages the computer. Computer cannot run without it. Ex Mac Os, Windows OS
+    * Application Software "end user" software such as games or web browser
+   
+ 4. Server
+    * A computer that provides a service. Their are 3 types:
+    * Rack
+    * Blade
+    * Stand Alone
+ 
+ 5. IoT Devices (Internet of Things)
+    * Often found in medical devices, thermostats, HVAC and security systems
+    * Wirelss examples include Bluetooth LE, Zigbee and Z Wave
+
+ 6. Embedded OS
+    * Performs specific function/tasks
+    * Used in many IoT devices and mobile devices
+    * Real Time Operating System (RTOS)
