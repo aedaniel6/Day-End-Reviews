@@ -1,0 +1,22 @@
+# Day-End-Review
+ _2025-03-12_
+ 
+ **3 Takeaways from today:**
+ 
+ 1.Recaped Operating Systems and the 6 types:
+       * Batch
+       * Time-sharing
+       * Distributed
+       * Network
+       * Real Time
+       * Multiprogram
+  
+ 2. Virtual Machine's and the 2 types of Hypervisors:
+       * Host Computer- The actual physical computer
+       * Hypervisor-application or generic name for app. App creates VM
+       * Hypervisor 1-Native Bare Metal, runs directly on top of hardware, acts like Operating System
+       * Hypervisor 2- Hosted OS that sits between Hypervisor and Host
+
+3. The Advantages and Disadvantages of Virtualization:
+       * Advantages: Save money, Agility and speed, Lowers Downtime, Threat Isolation
+       * Disadvantages: Compromise perfomance, complexity, Risk(single point of failure), Licensing
