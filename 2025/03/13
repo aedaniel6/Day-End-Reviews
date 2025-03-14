@@ -1,0 +1,25 @@
+# Day-End-Review
+ _2025-03-13_
+ 
+ **5 Takeaways from today:**
+ 
+ 1.The Components of Linux CLI Commands:
+       * Kernel- Contains core component 
+       * Shell- interprets commands and provides a way to interact with Linux kernel
+       * Terminal- which is the interface used to enter and display commands
+       
+ 2. Basic Commands used in CLI:
+       * cd
+       * ls
+       * cat
+       * -a
+       * pwd
+       * clear
+       *echo
+
+3. Echo commmand is built into rhe kernel
+
+4. Linux uses logical directory tree
+
+5. Stucture starts with root.
+       
