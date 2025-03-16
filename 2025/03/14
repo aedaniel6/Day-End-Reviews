@@ -1,0 +1,33 @@
+# Day-End-Review
+ _2025-03-14_
+ 
+ **5 Takeaways Regarding Advanced File System Navigation:**
+ 
+ 1. General Navigations
+       * /etc- system configuration
+       * /home- contains subdirectories for each user account
+       * /media- removable media such as usb
+       * /root- home directory for root user
+       * /var- contains data files that update constantly
+  
+ 2. Common Redirectories
+       * /home/username- profile settings
+       * /var/logs- system and application files
+       
+ 3. Chain Commands
+       * | Pipe- the output of first commmandis the input of the second command
+       * ; Semicolon- placed between commands whether commands completes successfully or not
+       * ! Bang- negates expression
+ 
+ 4. Redirectors
+       * >- overwrites existing data in file
+       * >>- appens or adds to existing data in file
+       * && Logical AND- next command will run only if previous command is successful
+       * " Logical OR- next command will run only if previous command fails
+       * Link- a file that points or redirects to another file or redirectory
+       * Hardlink- a copy. exact file
+       * Soft link- a shortcut( think Desktop)
+
+5.  Filters
+      * grep- returns text that matches string pattern
+      * wc- word count
