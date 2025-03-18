@@ -1,0 +1,38 @@
+# Day-End-Review
+  _2025-03-17_
+  
+  **5 takeaways from today**
+  
+  1. User Management
+        * I AM-ensuring rights and appropriate access to resources
+        * Authenticate-access
+        * Authorize- permissions
+        * Accounting-log and auditing 
+
+          
+  2. User and Group accounts
+        * Control ability to log onto system, accesss resources and perform actions.
+          1. standard user
+          2. System (service) user account
+        * Group
+          1. Primary
+          2.Secondary 
+          
+  3. Servers 
+     * Web Server- Apache, Nqinx
+     * Email Server- Outlook, Exchange
+     * Database- Oracle
+     * File Server- Ubuntu, Redhat, MS Windows
+    
+  4. Shadow- Locked Files
+    * $- Encryption
+    * !- Command Line
+    * (*)- root user
+    * Blank- no password required
+  
+  5. Cryptographic Algorithim
+    * Hashing
+
+  6. User Creation
+    * Start with "sudo" command when modifying anything user related
+    
