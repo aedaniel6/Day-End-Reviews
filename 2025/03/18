@@ -1,0 +1,25 @@
+# Day-End-Review
+ _2025-03-18_
+ 
+ **4 Takeaways from today:**
+ 
+ 1. Recap on User Management 
+    * useradd- creates users
+    * usermod/sudo- modify commands
+    * userdel- deletes user
+  
+ 2. Priciple of Least Privilige
+    * Linux authorizationis based on file diectory ownership and permission
+    * Touch- creates file
+    * file creator is owner
+       
+ 3. Three types of Ownership in Linux
+    * User
+    * Group
+    * Others
+    *When you creat a file folder, you automatically,have all 3 owners
+
+4. Permissions- Defines what can be done to file or directory. Their are 3 types
+    * Read- you can only view 
+    * Write- change, rename, delete
+    * Execute- Run as program
