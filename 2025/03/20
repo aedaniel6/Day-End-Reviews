@@ -1,0 +1,27 @@
+# Day-End-Review
+  _2025-03-20_
+  
+  **4 Takeaways from today:**
+  
+  1. Source Code 
+     * plain text
+     * readable
+     * some distros are not compiled
+  
+  2. Compiled Code
+     * Not readable (binary code)
+     * Easy to download and use
+     
+  3. Why would you use a source code?
+     * make changes and modifications
+     * some are not precompiled
+     * curiousity
+ 
+ 4. Package Manager
+     * RHL- Red Hat Linux ( ext .rpm)
+      1. RPM
+      2. YUM
+      3. DNF(what we focus on)
+    * Debian ( ext .deb)
+      1. dpkg (a la carte)
+      2. apt (what we focus on)
