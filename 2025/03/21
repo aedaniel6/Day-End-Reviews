@@ -1,0 +1,28 @@
+# Day-End-Review
+_2025-03-21_
+
+**4 takeaways from today**
+
+1. Source Code Uses
+      * To make changes and modifications
+      * Some distros are not compiled
+      * Curiousity
+        
+2. Why would you not use source code?
+      * Pre compiled is preferrable
+      * wget and curl are downloadable 
+
+3. Process Management
+   * In Linux, system processes are also called daemon processes
+   * A process can have "children"
+     1. every process has a system id
+     2. "Grandparent" is the original process
+     3. to "kill" a process you need the PID number
+  
+4. Process State
+   * [R] running
+   * [S] sleep
+   * [T] traced or stopped
+   * [Z] zombie
+
+5. Find solutions to known problems. Look around and figure out how can this be made better or more sensible. For example, rolling suitcases or shirts with no tag etc
