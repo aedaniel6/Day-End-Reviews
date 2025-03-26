@@ -1,0 +1,27 @@
+# Day-End-Review
+ _2025-03-25_
+ 
+ ** 5 Takeaways from today**
+ 
+ 1. Addressing
+    * Ping- a command that allows you to check response from host
+    * Private network to router configured by NAT ( Network Access Translation)
+    * Ip address 127 is associated with testing and development.
+
+ 2. IPv6
+    * Host can be considered a device
+    * 128 bit
+    * IPv6 has MAC address at the end
+    * Quartet is Iv6
+ 
+ 4. Manual (Static) or Dynamic configuration
+    * Rules are alos known as protocols
+    * Static is good for email, database, file server, NAT, DHCP, DNS
+    * DHCP server- IP address, subnet mask, default gateway, DNS server
+    
+ 5. How client communicates with Server
+    * D- Discover
+    * O- Offer
+    * R- Request
+    * A- Acknowledge
+    *How do you map an IP address? DNS
