@@ -1,0 +1,29 @@
+_2025-03-27_
+   
+   **5 takeaways from today**
+   
+   1. Default gateways
+      * connects different network routes
+      * Ping- tests connectivity
+      * Traceroute- how many "jumps" ir would take to get to destination
+      
+  2. Arp command- Address Resolution Protocol
+     * Resolves or takes IP address and connects it to MAC address
+     * tcpdump command- It can look at frames on data layer or packets at network layer.
+     * wireshark GUI
+
+  3. Yalm command- no hidden syntax (spacing is key)
+
+  4. System and Services
+     * Services associated with daemon
+     * service commands end with the letter (d)
+     * systemctrl and systemd command- starts service
+     * unit file- configuration files define actions of resource or service
+
+  5.  Chron
+     * Chron in Linux is equivalent to Windows Scheduler
+     * 3 jobs: ChronTable, Chronjob, and Chrondaemon
+     
+     
+    
+     
