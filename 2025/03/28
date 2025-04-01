@@ -1,0 +1,34 @@
+_2025-03-28_
+   
+   **5 takeaways from today**
+   
+   1. Firewall
+      * Firewall filters use access control lists. Has hardware or software. Authentication services.
+      * Net based- network protection
+      * Host Based- individual protection
+
+   2. Types
+      * Stateful Inspection
+      * Proxy firewall
+      * App layer gateway
+
+   3. Linux Firewall
+      * Netfilter- hard to understand makes it easier with Ip Tables
+      * Ip Tables- sudo
+      * Uncomplicated firewall (UFW)
+      * firewalld pre installed
+
+   4. IP Routing
+      * forwards packets from the locat network to the remote
+      * Ip add, ports, protocols can be filtered.
+
+   5. Key
+     * SSH- Secure shell authenticaton
+     * Public key
+     * Private key
+    
+
+     
+     
+    
+      
