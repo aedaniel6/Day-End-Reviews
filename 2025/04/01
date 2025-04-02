@@ -1,0 +1,45 @@
+# Day-End-Review
+ _2025-03-07_
+ 
+ **Network Topology and Troubleshooting:**
+ 
+ 1. Peer to Peer and Client Network:
+    * Peer to peer- decentralized
+    * Client Net-  every device acts as a client server
+    
+ 2. Topologies
+    * Physical- follow the cable
+    * Logical- 1's and 0's
+    * Point to point- one device connects to another. Foundations to all other topologies
+    * Bus- troubleshooting id hard and so is maintenance
+    * Star-Ring- Physical star and logical ring. Data flows in central device.
+    * Mesh Topology- 2 types Partially meshed (physical connection) Fully Meshed (wireless connection)
+       
+ **Model Concepts**
+ 1. Physical Layer 
+   * Wired ( twisted, coax, fiber optic, media converter)
+   * Repeater- amplify signals (digital-steps)
+   * Amplifier- amplify signals (analog-wireless)
+ 
+ 2. Data Encapsulation
+    * Sender- Transport layer- each block ahs a header
+    * Network Layer- add IP header
+    * Physical- Electric, radio, light signal.
+
+  3. De- Encapsulation
+     * Reciever- Datalink-frame discarded if match
+     * Network- Ip packet discarded if match
+     * Transport- part # specifies operation encryption removed, data regular format.
+
+  4. SOHO ( Small Office Home Office)
+     * All in one devicee
+     * DSL/CAble
+     * Minimal Config
+     * Enable/Disable frequency
+     * Pick SSID security
+     * DNS Server
+     * LAN
+     
+ 
+
+ 5. 
