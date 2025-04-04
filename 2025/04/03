@@ -1,0 +1,50 @@
+# Day-End-Review
+ _2025-04-03_
+ 
+ **Cable, Wires,Connector, and Troubleshooting:**
+ 
+ 1. Shielded twisted pair 
+    * Stranded which is made up of a bundle of strands.  
+    * Solid is a single copper cable that's better for conduction. Maximum length a hundred meters from wall to computer. All devices are nodes
+
+ 2. EIA and TIA
+    * Twisted pair copper based.
+    * Two types: 8 wire is RJ45 and 4 wire is RJ11. 
+    * RJ45 made for computer data and RJ11 is more suited for telephone. 4 wire won't  typically won't have shielded twisted pair. Coax cable connector has p v c or fire resistant cover. PVC m/teflon insulator.
+
+3. Industry standard is 50 to 75 ohms.
+   * Twisted pair has higher transmission rates
+   * Flexible is better for ethernet and telephone systems. 
+   * Better crosstalk reduction
+
+3. Fiber optic 
+   * Can be single mode or multi mode.
+   * More expensive connector better quality. Rx= reciever Tx=Transmission. 
+   * The must criss cross. 
+   * Types of fiber optic cables 
+   * ST which is twisted straight tip cable.
+   * SC which is clamp/click cable 
+   * LC double cable.
+
+4. TIA/EIA Are the standards for how to install connector to cable. 
+   * If it's labeled A Is for government and B is for business.
+   * Structured cabling 
+   * Includes entrance demark m d f and I d f.
+   * Patch panel is from wall to computer. Workarea to Idf.
+   * Half duplex is like a walkie-talkie.Talk stop talk stop
+   * Full duplex is different frequencies talk listen telephone. 
+
+5. Attenuation is signal loss.
+   * Data turns into a digital signal via encoding and decoding.
+   * Analog data is modulated and demodulate it .
+   * The NIC card transmits and receives digital signal.
+   * latency is delayed during signal.
+
+6. Things that cause EMI are generators and phones. 
+   * Cross talk is bleeding over into another signal
+   * Short circuit is when 2 wires touch or something like a nail touches it. 
+   * Open circuit is cut or open.
+   * Tone generator finds which cable is active when it is not labeled
+       
+  
+ 
