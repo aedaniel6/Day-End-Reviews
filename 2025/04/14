@@ -1,0 +1,48 @@
+# Day-End-Review
+ _2025-04-14_
+ 
+ ** Takeaways from today:**
+ 
+ 1. Ethernet Introduction and Recap
+    * Ethernet- Chaos, fast. Use a switch to split extra devices on ethernet.
+    * MAC Address- to communicate. Use a MAC Table or CAM so switch can learn where MAC addresses are located
+    * Lattice Network is built into switches (MESH topology)
+    * Protocol- CSMA/CD ( Carrier Sense Multiple Access Collision Detection
+  
+ 2. Ethernet operates on physical and data link layer
+    * Ethernet on physical layer is wiring and cabling
+    * Ethernet on data link layer is MAC address and CSMA/CD
+    * Baseband is a single signal (twisted-pair)
+    * Broadband is multiple signal (fiber-optic)
+
+ 3. Full Duplex, Half Duplex, Simplex
+    * Full Duplex- switch
+    * Half Duplex- Hub, bus
+
+ 4. Fiber- Long Range, Short Range < FX, LR, SR
+    Twisted Pair TP- Cat 3, 5e, 6a, 7a, 8a
+    Broadband- 100 Base, 20G, 10G, 40G
+    F Tyoe- connector for coax
+    Baseband- Digital signal 
+    Broadband- frequency 
+  
+ 4. Bridge- connects 2 or more networks, segments on Data link layer deals with MAC address control data flow
+    Switches are preferred over bridge
+
+ 5. Ethernet Frame
+    * Frame Payload 1500-1515
+    * Network Card - Transmit and Recieve " Transceiver"
+    * Transmission unit
+      Destination MAC
+      Source MAC
+      Data Payload (1500 bytes per frame)
+      FCS
+
+6. Autonegotiation Protocol
+   * Full Duplex communicaton
+   * Host device chooses highest speed/duplex
+   * fast link pulse
+   * TP cable ( RJ45)
+   * No collision
+   * More switches for more conections
+   * NO Hub prevents collision
