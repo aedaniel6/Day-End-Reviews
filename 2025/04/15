@@ -1,0 +1,40 @@
+# Day-End-Review
+_2025-04-15_
+
+**Takeaways from today**
+
+1. Ethernet Switches
+   * Straight- Top to Bottom cabling ( ex. router to switch, server to switch, pc/server to hub)
+   * Crossover- literally cross cables (ex. router to router, pc to pc etc)
+   * Rollover- is used for Inband management or console. Rollover cables help manage switch
+   * Console- is RJ45 or USB ( USB is preferred). Console Port does not allow internet access but switch management
+   * MDIX- made crossover cables obsoletes because of Auto feature.
+
+2. Frames and Packets. Packet Sniffing Software
+      * TAP Device- copies all frames passive and active 0's and 1's 
+      * SPAN (Switch Port Analyzer)- located on switch. Actual port that collects traffic from specific port
+      * What packet sniffing sofware is used? Wireshark (GUI) and Tcpdump (Terminal)
+      
+3. Ethernet Switch Types
+   * Unamanged- not configured vs Managed- already configured
+   * Stackable- operates as a single unit
+   * Modular- wires can be change
+   * Desktop- freestanding vs Rack Mount
+
+4. Port Aggregation
+   * combines links into single channel. Increased bandwith and provides redundancy in case of port failure
+   * Port Mirroring is aka SPAN
+   
+5. Collision Domain
+   * Is a group of hubs (nodes) that can "hear" each other
+   * The more hubs the larger the collision domain
+   * MAC or CAM table creates point to point connection
+   * Hub makes one big collision domain
+   * Every part of a switch splits the collision domain including port
+
+6. POE (Power Over Ethernet)
+   * Wires 1 and 2 transmit
+   * Wires 3 and 6 receive
+   
+   
+   
