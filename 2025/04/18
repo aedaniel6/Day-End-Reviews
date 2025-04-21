@@ -1,0 +1,38 @@
+# Day-End-Review
+_2025-04-18_
+
+**5 takeaways from today**
+
+1. Terms learned today:
+   * Classful/Classless
+   * CIDR 9 Classless Inter-Domain Routing
+   * Static IP Addressing
+   * APIPA Automatic Private IP Address
+   * ARP Address Resolution Protocol
+   * Unicast, Multicast, Broadcast
+   
+2. Variable Length Subnet Mask
+   * Vary or moves things around
+   * CIDR- part of an octet to be used for the Network address "partial subnetting"
+   
+3. IP Addressing nad Forwarding
+   * Networking
+     Data- Forward frames
+     Physical- Route Packets
+  PACKET----->ROUTER----->PACKETS
+   *Terms:
+   * ARP- maps MAC address---->IP address
+   * DNS- maps IP address----->Domain Name
+   * Default Gateway-helps ypu get to Internet via Router and Firewall
+   * SOHO- Router firewall, DHCP and NAT included. All in One.
+   * DHCP gives out all address (DNS, Gateway etc) via ipconfig /all command.
+   * But Gateway has ip address but how does it find MAC address? BROADCAST
+   * Send unicast to one person
+
+4. Broadcat, Unicast, Multicast
+   * Broadcast- 1 to all
+   * Unicast- 1 to 1
+   * Multicast- 1 to group
+   * Ipv4 doe NOT use broadcast domain
+   * IPv6 uses unicast, multicast and anycast
+5. Find solutions to known problems. Look around and figure out how can this be made better or more sensible. For example, rolling suitcases or shirts with no tag etc
