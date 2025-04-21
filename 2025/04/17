@@ -1,0 +1,32 @@
+# Day-End-Review
+ _2025-04-17_
+ 
+ **5 Takeaways from Today:**
+ 
+ 1.MAC vs IP Addresses
+   * You only need MAC addresses to communicate with network
+   * 255.0.0.0/ 8bit
+   * 255.255.0.0/ 16bit
+   * 255.255.255.0/ 24 bit
+   * Subnet tells what is network and host
+ 
+ 2. ARP
+   * Address Resolution Protocol
+   * Computer A look in ARP cache to see if Computer B
+   * Sends out bfroadcast asking which comp has a specific MAC address. ARP cache makes network more efficient.
+   * Saves address to table (cache)
+   * 2 types of ARP: Dynamic and Static. Static is good if 2 devices are communicating with each other
+       
+ 3. NAT and DHCP
+   * Translate Address
+   * DHCP Assigns private address
+   * ISP gives/assigns public address and we pay provider
+   * APIPA is for microsoft providers IP address DHCP server
+   * When given an IP address and subnet mask and one can determine network #
+ 
+ 4. Why
+   * Why do we subnet, to break up and easily manage network. Subnet mask helps determine what is network and what is host
+
+
+ 5. Appreciation of diversity
+       * Valuing different perspectives and skills enriches problem solving and innovation while fostering inclusivity
