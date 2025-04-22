@@ -1,0 +1,28 @@
+# Day-End-Review
+ _2025-04-21_
+ 
+ **Takeaways from today:**
+ 
+ 1. Network- Route Packets
+   * Data Link- MAC Ethernet
+   * How do routers communicate with each other? What are the rules and protocols? In band network?
+  
+ 2. Routing Rules/Protocols
+    * Static- physically go to location to configure. Simplicity, seure and predictable.
+    * Dynamic- automatically learns routes. Point is to find "best route" vs "best path". Algorithm based.
+    * Best route acan be speed vs distance "hops"
+    
+3. Why do we need both IP and MAC address?
+   * MAC is useful for local communication
+   * Broadcast domain internet no possible 
+   * Loss of hardware = loss of all exiting connect.
+   * IP can change. Can group and organize different networks.
+
+4. Routing Technologies
+   * Jacks =Interface physically it's one jack we figuratively have 3 Jacks b/c we configured it. These figurative (imaginary) interfaces are called sub interfaces.
+
+5. Distance Vector vs Link State vs Hybrid vs Exterior
+    * Distance Vector- Neighbor, Rumor, Hop, RIP, IGRP, Old School
+    * Link State- Delay, Hops, bandwith, OSPF -IS-IS, CPU/RAM, reliability
+    * Hybrid- EIGRP
+    * Exterior- BGP/ Internet
