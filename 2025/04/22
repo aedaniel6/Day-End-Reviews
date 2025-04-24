@@ -1,0 +1,29 @@
+# Day-End-Review
+ _2025-04-22_
+ 
+ 
+ **Takeaways From Today:**
+ 
+ 1. NAT
+    * Used in Routers. Translates a set of IP address to another set of IP address.
+    * What does it do? Helps preserve limited amount of IPv4. (Private Address)
+    * 2 Types of IP addresses
+      a. Public- registered on internet and Private- are not publically registered on internet.
+      b. Private- are not publically registered on internet. You cannot directly access internet w/ private address
+    * Routers assign private IP addresses in home. MOst homes/small businesses have multiple devices that need to connect to the internet that is where private addressing within an network comes in.
+    * Having multiple IP addresses for each device in a home network can be expensive as well as improbable as their are limited amount of IPv4 addresses.
+    * NAT translates private IP Addresses for devices within network to Public IP address assigned to home router so devices acanaccess the internet and vice versa for webservices and pages on the trying to communicate with devices on home network.
+    * Next generation on IP addresses is IPv6 with 34 undecillion addresses.
+       
+2. NAT Cont'd
+   * Private addresses are free to anyone but are not routable to internet. 
+   * Class A: 10.0.0.0 - 10.255.255.255 or 10.0.0.0/8
+     Class B: 172.16.0.0 - 172.31.255.255 or 172.16.0.0/12
+     Class C: 192.168.0.0 - 192.168.255.255 or 192.168.0.0/16
+   * NAT improves security because hot IP addresses are hidden.
+
+3. 4 Types of NAT
+   * SNAT- (Static NAT)- 1 private address mapped to 1 public address. Deals with incoming traffic. Doesn't change. Runs out of IP addresses. Incoming traffic out to In.
+   * DNAT- (Dynamic NAT)- Deals with Outbound/going in to out. IP masquerading. External host cannot initiate communications. Whatevers available from pool of leased addresses. Rotate addresses.
+   * Port Forwarding- Outside going in. Port #, ephemeral parts, random
+   * PAT- Port Address Translation- Most popular
