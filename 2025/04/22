@@ -27,3 +27,8 @@
    * DNAT- (Dynamic NAT)- Deals with Outbound/going in to out. IP masquerading. External host cannot initiate communications. Whatevers available from pool of leased addresses. Rotate addresses.
    * Port Forwarding- Outside going in. Port #, ephemeral parts, random
    * PAT- Port Address Translation- Most popular
+
+5. Edge Routing
+  * Border Router
+  * Customer Edge vs. Provider
+  * Helps with Load balancing in case system goes down.
