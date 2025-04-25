@@ -1,0 +1,50 @@
+# Day-End-Review
+ _2025-04-24_
+ 
+ **Firewall:**
+ 
+ 1. Firewall
+    * Filters and allows/denies traffic based off a set of rules and protocols.
+    * Routers strips MAC and looks at source. Destination for packet.
+    * Added service Access Control List turns router into firewall.
+
+2. 2 Types of Firewall:
+    * Stateful- "Data Flow", Detect, Prevents certain types of attacks, "conversation", Resource intensive.
+      safer. Operates on OSI layers 4 and 5. Circuit level gateway (session layer)
+    * Stateless- Just packet, packet filtering, no history, fast, 1 at a time.
+    * UTM- Unified Threat Management Firewall intrusion prevention, all in one, switch, router, load balancer, etc
+
+3. What do these firewalls look like:
+   * Hardware based- Network, physical, (ex. SOHO)
+   * Software based- Malware, bytes, (ex Microsoft Defender)
+   * Appliance- UTM standalone only performs firewall function. Small office w/o physical components. Remote w/o technician
+     to manage security components
+     
+ 4. Proxy Servers:
+    * Forwards requests and response on behalf of client, uses app filtering, located at the perimeter network.
+    * Mediator "middle man", "Agent-client", can bypass firewall, application layer, firewall (WAF0, cache, forward proxy vs reverse proxy,
+      Forward client -----> Internet-----> Server 
+      Server <-----Internet<----- Reverse client
+    * NAT- "port forwarding ", "malicious traffic content", load balancing
+
+  5. VLANS:
+     * PAN- Personal Area Network- Wireless /USB technology. Laptops, cell phones, transfer small files
+     * LAN- Local Area Networks- Close proximity, Ethernet LAN connects w/ Ethernet switch. Wireless LAN at least 2 devices to connect to LAN. 
+       Has wireless access point.
+     * CAN- Campus Area Network- Networking components owned by a campus tenant. Limited to geographic region.
+     * MAN- Metropolitan Area Network- Metro area, bigger than CAN. Uses fiber optic cable to share resources
+     * SAN- Storage Area Network- Webserver, database, email. Connects multiple servers w/switch. Partitioned off, a network all its own.
+     * WAN- Wide Area Network- The Internet.
+
+  6. Topologies:
+    * Physical
+    * Logical
+    * Point to point
+    * Bus
+    * Mesh - partially and fully
+    * Ring
+    * Star/ Star-ring
+
+  7. Three-tiered Network Hierarchy- Cisco design for Campus Network
+    * Three Layers- Access, Distribution, Core
+    * Prevents scalability, resilience, manageability.
