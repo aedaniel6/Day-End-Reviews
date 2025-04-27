@@ -1,0 +1,36 @@
+# Day-End-Review
+ _2025-04-25_
+ 
+ **Takeaways from today:**
+ 
+ 1. Layer 2 and Layer 3 Switch:
+    * Layer 2- Most commonly found in homes and businesses. Is fast and requires no configuration.
+    * Layer 3- routes data using IP and MAC addresses. Requires configuration. SVI allows data to be routed to VLAN's creating
+      default gateways. It does not have the complete routing capabilities of a router
+
+ 2. Collision Domain and Broadcast Domain:
+    * Twisted pair cabling eliminates collision domains
+    * When a device wants to communicate with another device on the network it first sends out a broadcast.
+    * |Broadcast| Destination Address| ARP Payload/IP Address| "I have this info (IP address), what is the MAC address?"
+    * Use a switch and designate what part is to be considered a domain.
+
+3. Layer 3 Switch:
+                                       ROUTER
+                                    
+            SWITCH | ports1-4 | ports 5-8 | ports9-port12 |
+                      \/          \/            \/
+                LAN(Domain)    LAN(Domain)     LAN(Domain)
+
+
+4. Difference in Method:
+   * In order for VLAN's to communicate Level 3 switch or router is required.
+   * A managed switch only allows switch to VLAN.
+   * Subnet requires a router. Physical segmentation
+   * VLAN is virtual segmentation.
+
+5. Static vs Dynamic:
+   * Static- Port based VLAN requires manual configuration/assignment of ports on switch to a virtual network. Once ports are assigned.
+     they are always associated with their pre assigned VLAN.
+   * Dynamic(MAC based)- based off of device instead of port location. VLAN membership is based according to device MAC address. Requires a
+     VMPS Server. Computer plugs into port and port will commmunicate wit database to check membership. Devices are controlled on a central server. It is more flexible
+   * It is more secure random devices cannot plug into to port because database will know what devices are associated to ports according to server.
