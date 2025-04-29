@@ -1,0 +1,46 @@
+# Day-End-Review
+ _2025-04-28_
+ 
+ **Takeaways from today:**
+ 
+ 1.Network Ports:
+   * HTTP/S=80/443         * DHCP=67/68       * VOIP(SIP)=5061
+   * FTP=21                * DNS=53           * LDAP=389
+   * SMTP=25               * SSH=22           * SMB=445
+   * POP=110               * TELNET=23        * RDP=3389
+   * IMAP=143              * TFTP=69          * MYSQL
+
+      APPLICATION ====PAYLOAD
+      TRANSPORT TCP- SEGMENTS, CONNECTIONS, HANSHKES, FLOW CONTROL, SEQUENCNG
+      TRANSPORT UDP- FAST, CONNECTIONLESS
+   * "3 Way Handshake" 1. SYN/ 2. SYN ACK/ 3. ACK RECEIVED 
+
+ 2. Port Ranges:
+    * 0-65535 is full range for port numbering
+    * 0-1023 System otherwise known as "well known ports"
+    * 1024- 49151 User "registered ports"
+    * 49152-65535 Dynamic/private ports. Ephemeral
+
+3. Netstat:
+   * that displays open network sockets, routing tables, and a number of network interface
+   *  Command  list of all active TCP connections on the computer
+   * -n command displays active TCP connections, however, addresses and port numbers are expressed numerically 
+   * -a command displays all active connections and the TCP and UDP ports on which the computer is listening.
+   * -b command displays the binary (executable) program's name involved in creating each connection or listening port.
+   * -f command displays fully qualified domain names 
+   * -an command displays al active network addresses and port numbers by name
+   * -t command displays fully qualified domain names 
+   * -p command show which processes are using which sockets (similar to -b under Windows) (you must be root to do this)
+
+4. DHCP Server
+  * A router has 3 devices on its network with different subnets, How does the DHCP server communicate past router?
+    it uses a DHCP Relay Agent and acgs as a proxy. It is an enable service.
+
+                          DHCPSERVER ( Scope, Range-Release, Lease-time, Collision)
+            SUITE
+COMPUTER
+(Relay Agent)
+
+* A layer 3 switch can also relay/release.
+* 1 router to multiple switches
+* IPv6 MAC addresses use APIPA to assign addresses.
