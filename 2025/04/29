@@ -1,0 +1,35 @@
+# Day-End-Review
+ _2025-04-29_
+ 
+ **Takeaways from today:**
+ 
+ 1. DNS
+   * Resolvesor maps domain names to IP addresses
+   * a.) Cache b.) check host file c.) Resolver
+   * Recursive Query- between DNS client and local DNS server
+   * Iterative query- local DNS server and other DNS Server
+   * DNS server does not demand name resolution, " I do not know the name I will refer you to someone else"
+
+ 2. Fully Qualified
+    
+ 3. DNS Records
+   * Domains are read left to right
+   * A Record-Host record to resolve a name to an IPv4 address.
+   * AAAA Record host record to resolve a name to IPv6.
+   * Canonical CNAME- alternative name for a particular A or AAAA record it's an alias
+     A). Create A record B). Give it a name email.com C). MX record D.) Give it a host name
+   * MX Mail Exchange- identify a host record that functions as an email server for the domain. Servers distinguished by priority value.
+   * SRV- points to a service by including file, printer, database
+   * TXT- stores free-form tools
+
+ 4. PTR- make sure server is authentic. Reverse DNS lookup.
+
+  4. Terms
+    * DNS
+    * Host File/cache
+    * Root
+    * TLD
+    * Authorative Name
+   
+   
+3. 
