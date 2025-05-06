@@ -1,0 +1,63 @@
+# Day-End-Review
+ _2025-05-05_
+ 
+ **Takeaways from today:**
+ 
+ 1. Social Engineering
+    * Brute Force Attacks- trial and error attemot to crack a password/ and credentials.
+    * Rainbow Attack- precomputed table for cracking passwords.
+    * Dictionary Attack- brute force attack with a predetermined list of dictionary terms
+
+2. Nonrepudiation
+   * You can prove that action occured. No denial.
+   * Risk- likelihood or percentage of impact of threat that exploits threat and vulnerability
+   * Vulnerability-  weakness
+   * Threat- harmful event
+
+3. Harmful Event- manmade and natural
+   * Compliance vs Risks vs Technical Audits
+   * GDPR- General Data Protection Regulation. EU Data Privacy Regulations
+   * PCI DSS- Standards protecting cardholder
+
+4. Risk 
+   * Risk Management- identify, assess prioritize, vulnerability
+   * Risk Assessment- security controls/ counter measures. BIA, BCP, DRP
+
+5. Cryptographic- study of hididng info
+   * Encoding data
+   * Types: Hash, Encryption
+   * Symmetric Key- one key, algorithm, 
+   * Asymmetric Key- two keys
+
+6. Hash
+   * algorithm executes calculation on data (plain-text) to create fixed length.
+   * Integrity and Confidentiality
+   * One way street- secure password storage.
+   * Encryption- converts human readable plaintext into a coded ciphertext
+
+7. States of DAta
+   * Data at Rest- hard drives
+   * Data In Transit- TLS as it moves across the internet
+   * Data In Use- TPM, HSM, (ex RAM)
+
+8. Vulnerabilities
+   * Software flaws, misconfigurations, poo practices, allows malware install etc..
+   * Zero-Day Vulnerability- security weakness, flaw in software, hardware, firmware unknown to vendor and development
+   * Zero Day Exploit- malicious code/technique specifically designed to take advantage of zero-day vulnerability attack
+     leverages exploit to; A. gain unauthorized access, B. steal data C. public key encryption
+
+9. HoneyPots vs HoneyNet
+   * Threat Types:
+     Nation State
+     Organized Crime
+     Internal Threat Actor
+     Hactivist
+     External Threat Actor
+
+10. Enumeration
+    * to gather information about vulnerabiliies and target
+    * footprints- non intrusive (non specific)
+    * fingerprints- intrusive and intentional
+    * fileless malware- located in RAM. when computer cuts off malware dies
+
+
