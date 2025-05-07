@@ -1,0 +1,24 @@
+# Day-End-Review
+ _2025-05-06_
+ 
+ **Takeaways for today:**
+ 
+ 1. Authentication
+  * What you know?
+  * What you have?
+  * What you are?
+  * What you do? 
+  * Where you are?
+
+2. Identify, Authentication, Authorize, Accounting
+
+3. CAS ( Central Authentication Server)
+  * Types: PKI, Kerebos, Radius, TACACS+, LDAP/AD
+  * PKI- Asymmetric, Open Public,
+  * Private- unique, individual, RSA, DH, NSA, Elliptical
+
+4. Digital Certificates
+  * Digital Certificates love private keys.
+  * Radius- UDP
+  * TACACS+- TCP
+  * LDAP- is based on active directory, Finance, Marketing, Accounts recievable, Accounts Payable
