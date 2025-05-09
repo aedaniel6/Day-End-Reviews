@@ -1,0 +1,58 @@
+# Day-End-Review
+ _2025-05-08_
+ 
+ **Takeaways from Today:**
+ 
+ 1. Authorization and Access Control
+   * Discretionary Access Control (DAC) -owner or resources determining how it is shared. Whoever creates resource is owner. Distributed noo cenralized.  
+   * API (Application Programming Interface) -brings authorization protocol and policies
+   * Possible data leaks
+   * Based off trust
+   * Permission management is individual
+   
+2. Role Based Access Control (RBAC)- 
+   * Allows safe space for constructive feedback and collaboration without fear or judgement
+   * Rights/Access is associated with role
+   * Not direct access, based on what roles haves access to is based on rights
+   * Policy defines roles and access does not change when you leave the organization.
+   * New employee should be able to activate the desired role
+   * Revisiting Least Privilege. You can't negatively affect resources you don't have access to.
+   * User in 1 role has access to a subset of the files.
+   * Switch roles to gain access to other resources
+
+3. 802.1x NAC
+   * Network Access Control
+   * Port based
+   * Authenticates switch-level
+   * Access Point
+   * Relies CAS Central Authetication Server
+    
+4. Principle of Least
+   * User, programs, process has minimum rights and permissions.
+   * PAM= Privilege Access Management 
+   * System Admin (root)- control elevated access
+   * All activities are logged
+
+5. Privilege Escalation
+   * Increase in privileges
+   * Up
+
+6. Separation of Duties
+   * Checks and balances against possibility that critical sytstems or procedures.
+   * Divide tasks prevents ethical conflicts of abuse of power.
+
+7. Zero Trust
+   * Perimeter Focus- (Digital)Firewall, proxy servers. (Physical) locks and gates
+   * DOD Defense in Depth- Multilayer security controls and countermeasures
+   * Comprehensive approach to protocol and organizes assets.
+
+8. Access Control List
+   * Filters, port, IP Address
+   * Implicit deny's packets not matching rules are automatically dropped
+
+9. Firewall Types
+   * Stateless- data flow
+   * Stateful- conversation not 1 at a time
+   * Circuit Level- session layer ( start, maintain , stop)
+   * Application Layer- proxy firewall ex proxy server and typically web based
+   * UTM Unified Threat Management all in one, firewall, switch, router, load balancer
