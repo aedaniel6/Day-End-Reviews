@@ -4,7 +4,7 @@
  **Takeaways from Today:**
  
  1. Authorization and Access Control
-   * Discretionary Access Control (DAC) -owner or resources determining how it is shared. Whoever creates resource is owner. Distributed noo cenralized.  
+   * Discretionary Access Control (DAC) -owner or resources determining how it is shared. Whoever creates resource is owner. Distributed not centralized.  
    * API (Application Programming Interface) -brings authorization protocol and policies
    * Possible data leaks
    * Based off trust
