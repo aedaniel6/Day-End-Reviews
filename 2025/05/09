@@ -1,0 +1,47 @@
+# Day-End-Review
+ _2025-05-09_
+ 
+ *Takeaways from Today:**
+ 
+ 1. Air Gap- physically isolated network that has no direct connection to external networks, including the internet. 
+    * Digital Perimeter Protection
+
+
+ Internet               Web             Email              Database                
+                        Firewall          Layer 3 switch   Firewall     
+Comp   Comp VPN 
+       Extranet
+
+2. Screened Subnet- also known as a Demilitarized Zone (DMZ), is a specific network segment used to protect internal systems from external threats.
+   * Extranet- is a private network, like an intranet, but accessible to authorized users outside of an organization, such as customers, vendors, and partners. 
+   * Intranet- a private computer network within an organization used for internal communication, information sharing, and collaboration
+
+3. Triple Homes Firewall
+   * a network security architecture that utilizes a single firewall device with three network interfaces
+
+4. IOT Internet of Things
+   * PACS- PACS (Picture Archiving and Communication System) and IoT (Internet of Things) can be integrated to enhance medical image storage, retrieval, and sharing. 
+     PACS manages medical images from various modalities, while IoT devices can collect and transmit data from equipment in real-time. 
+   * BAS- BAS IoT refers to the integration of the Internet of Things (IoT) with Building Automation Systems (BAS)
+      *Real-time Data Collection:
+      *Granular Control
+      *Improved Energy Efficiency
+   * Programmable Logic Controllers- 2 Device Types IT and OT
+   * Network- Z-wave and Zigbee
+     Erasable, programmable, read-only
+
+5. Badeges and Site Security
+   * Access Control- Keypad or cipher text
+   * Keyfob/ Proximity Card
+   * Badge Reader
+   * Mantrap/ Turnstyle
+
+6. Physical Security for Server Systems
+   * Rack System locks
+   * Secure Cabinets and Enclosures
+   * Cages and Safe
+   * Detection-Based Devices- Security Guards
+   * Camera- Based Surveillance Systems CCTV
+   * Camera Specification- resolution, focal length
+
+7. Geofencing
