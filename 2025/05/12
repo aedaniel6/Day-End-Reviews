@@ -1,0 +1,58 @@
+# Day-End-Review
+ _2025-05-12_
+ 
+ **5 Things that Make a Good Collaborative Technical Team:**
+ 
+ 1. Electromagnetic Spectrum
+    * Invisible energy waves consisting of electric and magnetic field.
+    * 8 waves (frequencies): Radio, Micro, Infrared, Visible, Ultraviolet, X-Ray and Gamma Ray
+    * Radio and microwaves are primarily used for communication- 300Mhz-300Ghz
+    * 1hertz = 1 cycle per second.
+    * All radios are transcievers and all transcievers must be on the same clock.
+    
+ 2. WLAN
+    * 3 frequency bands: 2.4, 5, 6
+    * Frequency bands can be divided into smaller Channels. You can tell the Network Antenna Card which channel to tune into. 
+    * 2.4 lower frequency, longer distance (radio)
+    * 5, 6 higher frequency, shorter distance
+    * Frequency Hopping Spread Spectrum (FHSS)- hopping between channel while staying in the same frequency.
+    * DSSS- popular moduation and transmission spectrum technology. Combine data signals withOFDM high bit data frequency
+       A. Each bit is coded
+       B. Signals distributed over wider area
+       C. More bandwith
+       D. Low power density/signals are harder to interfer.
+
+    * 802.11 IEEE is wireless standard for military
+
+  3. WiFi Specifications
+     * OFDM (Orthogonal Frequency Division Multiplex)- A whole bunch of channels at a higher spectrum
+     * Combined signals on shared channel.
+     * Signals are multiplexed in a way where the peak of 1 signal occurs at lowering of another. No interference, no overlap
+     * A= 5Ghz/54 Mbps
+       B= 2.4Ghz/ 11 Mbps
+       G= 2.4 Ghz/ 54 Mbps
+       N= 2.4Ghz/ 450 Mbps
+       AC= 5 Ghz/ 1.3 Gbps (wave 1)/ 3.4 Gbps (wave 2)
+       AX Dual band= 5Ghz, 6.6
+       1q= vlan trunking
+       1x= access control
+    * Wifi does not like collision and will avoid at all cost
+    * Ethernet standard 802.3 IEEE
+    * 13 usable channels; channels 1, 6, 11  
+    * RTS/CTS= access point rule
+
+ 4. MU-MIMO and SU-MIMO
+    * Full Duplex
+    * Multiple devices to communicate with router at the same time
+    * Breaks up bandwith between multiple devices.
+    * Router has to have MU-MIMO technology
+    * Beamforming- signal is directed in multiple directs for specific (targeted) device.
+    * New wifi 6 router can support 12 streams.
+    * 802.11 ac wave 2 (wifi 5) has to be supported for MU-MIMO\
+    * 5 Ghzs/ (wifi5) is the bandwith it works on
+    * SU-MIMO- half duplex
+    * Channel Bonding - combine 2 non overlapping 20 Mhz channels to create a single 40 Mhz (by adding an antenna)
+    * l
+    
+
+  4. 
