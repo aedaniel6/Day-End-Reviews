@@ -1,0 +1,62 @@
+# Day-End-Review
+ _2025-05-13_
+ 
+ ** Takeaways from today:**
+ 
+ 1. Analog and Digital 
+    * Sampling- finding a sufficient number of examples to represent and reconstruct original signal ( Pulse Amplitude Modulation)
+    * Sample Rate- per second
+    * Quantizing- bit number in each sample. Matching bit level in binary value
+    * Encoding
+
+2. Cellular Network
+   * Multiplexing- allows multiple devices to share a medium (wired and wireless)
+   * TDM- divides time into slots so media can be assigned to slots equally. New method is Statistical Multiplexing determined by workload on the fly.
+   * FDM- works for analog travels on non overlapping frequency channel.
+   * Baseband- one signal at a time. Exclusive use of channel. Ethernet for example
+   * STDM and TDM uses baseband.
+   * Broadband- optical radio signal waves allows multiple transmission
+
+3. Rules
+   * Cellular use is multiplexing. Shared wireless media
+   * CDMA- Code Division Multiple Access
+   * 1G- analog, 2G Digital transmission, GPRS/Edge, 3G, 4G, 5G
+   * Carriers have bought separate bands frequency. The carrier splits the band into different channels. The towers are assigned different channels within that band.
+
+4. Modem                                                   COMPUTER
+  INTERNET-------> MODEM-------> ROUTER( Integrated Switch)/
+                                                          ---->COMPUTER
+                                                          \
+                                                          COMPUTER
+  * Modems convert digital data to analog systems
+  * Most places use digital and analog. So modems will be obsolete soon to straight, fiber and digital.
+  * DSL use can use digital computer and analog phone at sometime
+
+5. WiFi Router vs Access Point
+   * Access Point acts like a repeater 
+   * WiFi router layer 3
+   * WiFi Access Point- Layer 2 wireless switch learns MAC addresses
+   * WiFi- Extender- extend wifi range from router. Connects to wifi network then acts as access point. Wifi extender acts like a repeater
+
+6. Wireless Encryption
+   * BSSID- MAC address of wireless device. Single Access Point
+   * BSS- Basic Service Set
+   * SSID- is just the name
+   * ESSID- used to identify Multiple Access Points
+
+7. Range and Signal Strength
+   * Interference and obstruction
+   * Measured in decibels. The lower the number the better the hihger the number the worse
+
+8. Wireless Adhoc
+   * Adhoc has no access point
+   * Infrastructure access point
+
+9. RF Elements
+   * Noise can be manmade or radio made
+   * 2 types of attenae: directional and bonding
+   * Wifi heatmap
+   * Roaming- you have to dissociate from one access point to another access point. From one BSS to another BSS within the same ESSID.
+   * Associated w/ access point- Active scanning and Passive scanning.
+   * WDS- Wireless Distribution System
+   * Hub and Spoke- centralized management and monitorig of AP's. Typically connects all AP's through wired link. Omni and Directional.
