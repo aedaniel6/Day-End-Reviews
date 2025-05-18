@@ -1,0 +1,32 @@
+# Day-End-Review
+_2025-05-15_
+
+**5 takeaways from today**
+
+1. Wireless Security- Open Systems- Authentication
+   * Passphrase- or ask server for credentials ( aka Pre-shared key)
+   * Enterprise (Kerebos, TACACS+, RADIUS) - You have to assign user (managed), MAC addresses can be used to authenticated device. Packet have to be
+     encrypted. Methods are: WEP (deprecated), WPA, WPA2, WPA3.
+
+2. Hash Algorithm
+   * Integrity, nonrepudiation
+   * Types: MD5 and SHA family
+   * Symmetric Key( 1 key)- RC5, AES, DES, 3DES 
+   * Asymmetric Key ( 2 keys)- DH Diffie Hellman, RSA, NSA, ECC family
+   * Start with reciever, has to generate public, private key pair. Sends public key. DH loves key exchange using private key
+   * Bulk encryption is single key. Everything else is assymmetric
+
+3. WAN
+   * WAN owned by Telco (AT&T, Xfinity etc)
+   * WAN site- geo location or endpoint connected by WAN
+   * WAN Link- connnection between on WAN site.
+   * 2 Types: Point to Point or Multipoint (one site to two or more other sites)
+   * Virtual Circuit- WAN connection logically appears to be dedicated
+   * But, physically may have any configuration thru the Telco.
+   * 2 Types: A. PVC- permenant virtual circuit. Established and maintain, PVC does not specify the exact role data takes.
+              B. SVC- Switched Virtual Circuit VC established and terminated after use.
+   * Dial-Up- Modem
+   * MAC Address- Data Link tied to phone #
+
+4. VPN- creates a tunnel and encryption.
+   * Tunnel (Header, Encapsulated on network)
