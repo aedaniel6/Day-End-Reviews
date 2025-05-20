@@ -1,0 +1,23 @@
+# Day-End-Review
+ _2025-05-16_
+ 
+ **Takeaways from today:**
+ 
+ 1. VPN Virtual Private Network-
+    * Tunnel
+    * Security "encrypt"
+
+ 2. Tunnel method encapsulates each packet into new ( often encrypted) packet
+ 
+ 3. VPN client installed in device
+ 
+ 4. WiFi Auto- OSA and PSK Personal Enterprise
+ 
+ 5. VPN
+    * Virtual --> no cables
+    * Private --> privacy
+    * Network --> Devices internet
+
+6. TYPES
+   * Remote Access VPN
+   * Site to Site VPN
