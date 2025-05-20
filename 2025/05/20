@@ -1,0 +1,32 @@
+# Day-End-Review
+ _2025-05-20_
+ 
+ **Takeaways from today:**
+ 
+ 1. Cloud
+    * Scalability
+    * Elasticity
+    * CSP
+    * On Premise vs Cloud
+
+2. Models
+   * Public
+   * Private
+   * Hybrid
+   * Community
+
+3. Security Models
+   * Traditional
+   * Iaas- GCE- Google Compute Engine (Sandbox)
+   * Paas- Google App engine. Like the tools in the Sandbox (only manage application data)
+   * Saas- Microsoft office 360
+
+4. Responsibility
+   * Security of the Cloud- Cloud Service Provider 
+   * Security in the Cloud- Client
+
+5. Functions
+  * CDN- uses software based controllers or API to communicate with underlying Hardware running it making changes
+  * Instances
+  * VPC- data center, virtual private clo
+
