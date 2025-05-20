@@ -1,0 +1,57 @@
+# Day-End-Review
+ _2025-05-19_
+ 
+ **Takeaways from today:**
+ 
+ 1. API
+    * Application Program Interface- Takes request and tells system what you want it to do.
+    * Interface is basically a waiter running back and forth between databases
+    * Automation- is one task whereas Orchestration- is a series of tasks being "orchestrated together"
+    * Virtualization- virtual not real. Creates virtual resources
+      A. The real computer is called a host
+      B  Hypervisor1 is bare metal
+           APP       APP      APP
+                HYPERVISOR
+                HARDWARE
+
+   * Hypervisor 2
+           APP    APP     APP
+                 HYPERVISOR
+                 OPERATING SYSTEM
+                 HARDWARE
+  * Virtual Server- Multiple server OS runs on single host, DHCP, file web
+  * Virtual Networks- allow virtual server/desktop to communication. Host OS allows the virtual network to communicate
+
+2. Virtual Machine and Containers
+   * VM Disadvantages- slow start-up and consumes alot of disk space, consumes alot of RAM and CPU Power.
+   * Required license for each operating system. Each VM has entire O.S
+   * Containers- Bundles everything needed for website w/o software or configuration. It has everything it needs.
+   * Container engine unpacks files for kernel (core).
+   * Container shares underlying O.S. Lightweight fast
+   * If OS crashes containers crash. Good for micro services, dependencies can be easily distributed.
+   * Docker- virtualizes O.S.
+   * Container Spaces- restrict access spaces
+
+3. Storage
+   * DAS ( Direct Attached Storage) via SCSI or other connections. Thumb drive. Not designed for sharing data are growing business. Hardrive
+   * NAS ( Network Access Storage)- Dedicated storage through network. One node on network. Available 24/7 with users over ethernet.
+     Reliable, flexible and scalable, containers (to slide in hard drives)
+   * SAN (Storage Access Network)- Storage resources. Dedicated high performance. Fiber. Can be accessed by TCP networks but not affected by TCP traffic.
+
+4. Components- Host, Storage, SAN Fabric, SAN, Software
+   * Fiber Channel- Initiator, Target-net port for storage device. SCSi, SATA, SAS.
+   * FC Switch- for heavy transaction. Deterministic. Fault Tolerance and Load Balancing
+
+5. RAID
+   * Storage is important to fault tolerance.
+   * Redundant Array of Indenpendent Disks.
+   * Raid 0- is not fault tolerant and increases chance for data loss
+   * Raid 1- fault tolerant. Data is copied on more than 1 disks
+   * Raid 5- 3 or more disks "Stripping w/Parity"
+   * Cloud- Scalability ability to handle increasing workloads by adding more resources (ex servers, RAM)
+            Elasticity- the ability of a system to automatically adjust its resources to meet changing workloads in real-time.
+    
+   
+    
+   
+  
