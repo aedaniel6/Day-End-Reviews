@@ -1,0 +1,73 @@
+# Day-End-Review
+ _2025-06-09_
+ 
+ **5 Things that Make a Good Collaborative Technical Team:**
+ 
+ 1. Python Programming:
+    * A program is a set of instructions the computer follows to perorm a task commonly reffered to as software.
+    * Machine LAnguage- binary 1's and 0's. Their are different languages and which one you use depends on use case. Python is a simple and popular language
+
+2. Programming Languages:
+   * C++, Java, C#, Objective- C, 
+   * Assembly- (is a little better than machine code but still not readable to humans).
+   * Machine Code
+   * Commonalities: Intergers (whole #'s), Float (decimals), Characters (ASCII)
+   * String- an array of characters. Ex ( Hello, World) is an example of an string
+   * Boolean- True/False, Yes/No, 1 or 0
+   * Conditions- If, Then
+   * Functions- Takes in data and returns value. Mini programs within a program
+   * Classes/Objects- Reusable building blocks of a program
+
+3. Assembly:
+   * Is above Machine Language. Processors have their own language.
+   * Alpha numeric equivalent
+   * Not really a language similar to machine code.
+   * Tied to CPU processor
+   * Not portable
+   * More code
+   * More control
+   * Registers- working memory. Spot on a RAM chip
+   * Stack- Last in, first out structure
+   * Is an array
+   * Random access
+   * ELF- Executable Linking Format
+   * Process- program core installed into RAM
+   * Fetch
+   * Decode
+   * Execute
+
+4. Higher Programming Language- Higher Level Language
+   * To be user friendly (Ex. Cobalt)
+   * The higher the language the language the less 1's and 0's. More human readable
+   * Portable
+   * Debugging is easier
+   * Easier to understand
+   * Machine Independent
+   * Needs compiler or interpreter for translation
+
+5. Assembly Code- is tied closely to machine code Has a 1:1 relationship with machine code
+   * Compiled code- run through a compiler and turned into Machine code.
+   * Can be compiled and turned into different machine code.Can be used on different processes and computer.
+
+6. Program Development Life Cycle:
+   * Define the program
+   * Design the program
+   * Write the code
+   * Correct Syntax Errors
+   * Test the Program
+   * Correct Logic Errors
+
+7. Pseudocode:
+   * A sentence, assignment (one person to another)
+   * Has no syntax rules and not meant to be compiled or executed
+   * Plain text, human readable.
+
+8. Syntax:
+   * Clean syntax
+   * Semicolon can't be used at the end of the line.
+   * Name and name are not the same ( case sensitive)
+   * Comments use a hashmark #
+
+9. Indentation
+   * Space at the beginning of a code line
+   
